@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	rev "github.com/QUICKSHELL/cmd/functions"
+	rev "github.com/Cybernautica/QuickShell/pkg/functions"
 )
 
 type program struct {
