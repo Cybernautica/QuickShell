@@ -14,19 +14,17 @@ type program struct {
 }
 
 type reverseShell interface {
-	payload() string
+	payload()
 }
 
-func (p program) payload() string {
+func (p program) payload() {
 
-	var pay string
-	if p.language == "python" {
+	i := rev.ReverseShell(p.ip, p.port, p.language)
 
-		r := rev.Python(p.ip, p.port)
-		pay = r
+	for _, val := range i {
+		fmt.Print("\n")
+		fmt.Println(val)
 	}
-
-	return pay
 
 }
 
@@ -42,8 +40,8 @@ var reverseshellCmd = &cobra.Command{
 		lang, _ := cmd.Flags().GetString("lang")
 
 		var t reverseShell = program{ip: ip, port: port, language: lang}
-		r := t.payload()
-		fmt.Println(r)
+
+		t.payload()
 
 	},
 }
@@ -61,7 +59,7 @@ func init() {
 	// is called directly, e.g.:
 	reverseshellCmd.Flags().StringP("ip", "i", "", "Provide the IP Adddress")
 	reverseshellCmd.Flags().StringP("port", "p", "", "Provide the port Number")
-	reverseshellCmd.Flags().StringP("lang", "l", "", "Programming language to generate rev shell")
+	reverseshellCmd.Flags().StringP("lang", "l", "", "Programming language or binary name to generate rev shell")
 	reverseshellCmd.MarkFlagRequired("ip")
 	reverseshellCmd.MarkFlagRequired("port")
 	reverseshellCmd.MarkFlagRequired("lang")
