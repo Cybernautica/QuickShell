@@ -11,11 +11,12 @@ A cli tool to generate quike reverse shell with this tool you can generate easy 
 ```bash
 ▶ Quickshell reverseshell -i 127.0.0.1 -p 1337 -l php
 
+```
 <h1 align="left">
   <img src="/images/img.png" alt="Quickshell" width="600px"></a>
   <br>
 </h1>
-```
+
 # Flags
 ```bash
 Quickshell -h
