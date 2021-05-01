@@ -12,7 +12,7 @@ A cli tool to generate quike reverse shell with this tool you can generate easy 
 ▶ Quickshell reverseshell -i 127.0.0.1 -p 1337 -l php
 
 <h1 align="left">
-  <img src="/images/img.png" alt="Gohasher" width="600px"></a>
+  <img src="/images/img.png" alt="Quickshell" width="600px"></a>
   <br>
 </h1>
 ```
