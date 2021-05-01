@@ -36,4 +36,7 @@ Use " [command] --help" for more information about a command.
 
 ```
 # License
+See **[License](https://github.com/Cybernautica/QuickShell/blob/main/LICENSE)**
+
+# Creators
 QuickShell is made with :heart:&nbsp; in India :india: by [@emnaruto07](https://twitter.com/emnaruto07) & [@s0u1z](https://twitter.com/Shreyasbhat4).
