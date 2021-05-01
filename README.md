@@ -1,5 +1,5 @@
 # QuickShell
-A cli tool to generate quike reverse shell with this tool you can generate easy and sophisticated reverse or bind shell commands to help you during penetration tests. Don't waste more time with .txt files storing your Reverse shells!
+A CLI tool to generate a quick reverse shell with this tool you can generate easy and sophisticated reverse or bind shell commands to help you during penetration tests. Don't waste more time with .txt files storing your Reverse shells!
 
 # Installation Instruction
 ### From Command Line
