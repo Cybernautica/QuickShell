@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	rev "github.com/Cybernautica/QUICKSHELL/pkg/functions"
+	rev "github.com/Cybernautica/QuickShell/pkg/functions"
 	"github.com/spf13/cobra"
 )
 

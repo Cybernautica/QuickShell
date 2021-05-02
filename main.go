@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Cybernautica/QUICKSHELL/cmd"
-	a "github.com/Cybernautica/QUICKSHELL/pkg/functions"
+	"github.com/Cybernautica/QuickShell/cmd"
+	a "github.com/Cybernautica/QuickShell/pkg/functions"
 )
 
 //var silent = flag.Bool("silent", false, "no banner")
