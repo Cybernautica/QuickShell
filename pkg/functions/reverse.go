@@ -31,7 +31,6 @@ func ReverseShell(ip string, port string, language string) []string {
 				payload = append(payload, fmt.Sprintf("[+]Payload -> "+i, ip, port))
 			default:
 				log.Fatalf("[!]No payload found in the database!")
-
 			}
 
 		}

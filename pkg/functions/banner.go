@@ -13,6 +13,6 @@ const banner = `
 
 func Banner() {
 
-	fmt.Println(banner)
+	fmt.Println(banner + "\n")
 
 }
