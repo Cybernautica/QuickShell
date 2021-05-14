@@ -9,7 +9,7 @@ A CLI tool to generate a quick reverse shell with this tool you can generate eas
 # Usage
 
 ```bash
-▶ Quickshell reverseshell -i 127.0.0.1 -p 1337 -l php
+▶ Quickshell -ip 127.0.0.1 -port 1337 -lang php -r reverse
 
 ```
 <h1 align="left">
@@ -21,18 +21,15 @@ A CLI tool to generate a quick reverse shell with this tool you can generate eas
 ```bash
 Quickshell -h
 
-Usage of ./Quickshell:
-  Usage:
-   [command]
-
-Available Commands:
-  help         Help about any command
-  reverseshell Generate quick reverse shell
-
-Flags:
-  -h, --help   help for this command
-
-Use " [command] --help" for more information about a command.
+ -ip string
+    	Please provide your ip.
+  -lang string
+    	Please provide the language for the payload.
+  -port string
+    	Please provide your port.
+  -r string
+    	Please provide the shell type. reverse/bind
+  -s	No Banner
 
 ```
 # License
